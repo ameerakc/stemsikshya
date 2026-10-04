@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  /* side space of the whole site: 20px on phones, up to ~133px on big screens */
+  --gutter: clamp(1.25rem, 7vw, 8.5rem);
+  --bar-pad: clamp(0.75rem, 1.6vw, 1.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #ffffff;
+  color: #0a0a0a;
+  overflow-x: hidden;
+}
+
+/* Page content wrapper (hero, later sections) */
+.site-container {
+  width: 100%;
+  max-width: 1620px;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+  box-sizing: border-box;
+}
+
+/* Navbar wrapper: its inner padding is smaller so the logo lines up
+   exactly with the headline's left edge */
+.site-container-nav {
+  width: 100%;
+  max-width: 1620px;
+  margin-inline: auto;
+  padding-inline: max(0.5rem, calc(var(--gutter) - var(--bar-pad)));
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  padding-inline: var(--bar-pad);
+}
+
+.site-header {
+  padding-top: clamp(0.5rem, 1vw, 0.75rem);
+}

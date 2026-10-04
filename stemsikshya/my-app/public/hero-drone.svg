@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Drone illustration - quadcopter drone -->
+  <rect x="50" y="50" width="300" height="200" rx="12" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2"/>
+  <rect x="60" y="60" width="280" height="180" rx="8" fill="#0f172a" />
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect x="60" y="60" width="280" height="180" rx="8" fill="url(#skyGrad)"/>
+  <!-- Drone body (center) -->
+  <ellipse cx="200" cy="150" rx="25" ry="15" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <ellipse cx="200" cy="150" rx="15" ry="8" fill="#3b82f6" opacity="0.3"/>
+  <!-- Drone arms and motors -->
+  <g stroke="#3b82f6" stroke-width="3" stroke-linecap="round">
+    <!-- Top-left arm -->
+    <line x1="200" y1="150" x2="120" y2="90"/>
+    <!-- Top-right arm -->
+    <line x1="200" y1="150" x2="280" y2="90"/>
+    <!-- Bottom-left arm -->
+    <line x1="200" y1="150" x2="120" y2="210"/>
+    <!-- Bottom-right arm -->
+    <line x1="200" y1="150" x2="280" y2="210"/>
+  </g>
+  <!-- Motors/propellers -->
+  <g>
+    <!-- Top-left motor -->
+    <circle cx="120" cy="90" r="18" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+    <ellipse cx="120" cy="90" rx="25" ry="4" fill="#3b82f6" opacity="0.4"/>
+    <ellipse cx="120" cy="90" rx="4" ry="25" fill="#3b82f6" opacity="0.4"/>
+    <!-- Top-right motor -->
+    <circle cx="280" cy="90" r="18" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+    <ellipse cx="280" cy="90" rx="25" ry="4" fill="#3b82f6" opacity="0.4"/>
+    <ellipse cx="280" cy="90" rx="4" ry="25" fill="#3b82f6" opacity="0.4"/>
+    <!-- Bottom-left motor -->
+    <circle cx="120" cy="210" r="18" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+    <ellipse cx="120" cy="210" rx="25" ry="4" fill="#3b82f6" opacity="0.4"/>
+    <ellipse cx="120" cy="210" rx="4" ry="25" fill="#3b82f6" opacity="0.4"/>
+    <!-- Bottom-right motor -->
+    <circle cx="280" cy="210" r="18" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+    <ellipse cx="280" cy="210" rx="25" ry="4" fill="#3b82f6" opacity="0.4"/>
+    <ellipse cx="280" cy="210" rx="4" ry="25" fill="#3b82f6" opacity="0.4"/>
+  </g>
+  <!-- Flight path indicator -->
+  <path d="M320 80 Q350 120 340 160 Q330 200 300 220" 
+        stroke="#3b82f6" stroke-width="2" fill="none" opacity="0.5" stroke-dasharray="6,4"/>
+  <!-- Small particles/dust -->
+  <circle cx="340" cy="100" r="2" fill="#3b82f6" opacity="0.6"/>
+  <circle cx="360" cy="140" r="1.5" fill="#3b82f6" opacity="0.4"/>
+  <circle cx="330" cy="180" r="2" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="350" cy="200" r="1.5" fill="#3b82f6" opacity="0.3"/>
+</svg>

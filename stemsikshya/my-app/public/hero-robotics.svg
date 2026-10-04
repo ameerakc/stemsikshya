@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Robotics illustration - robot arm / microcontroller -->
+  <rect x="50" y="50" width="300" height="200" rx="12" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2"/>
+  <rect x="60" y="60" width="280" height="180" rx="8" fill="#0f172a" />
+  <!-- Arduino-like board -->
+  <rect x="100" y="90" width="200" height="120" rx="8" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/>
+  <!-- Pin headers -->
+  <g stroke="#3b82f6" stroke-width="2">
+    <line x1="95" y1="110" x2="80" y2="110"/>
+    <line x1="95" y1="130" x2="80" y2="130"/>
+    <line x1="95" y1="150" x2="80" y2="150"/>
+    <line x1="95" y1="170" x2="80" y2="170"/>
+    <line x1="305" y1="110" x2="320" y2="110"/>
+    <line x1="305" y1="130" x2="320" y2="130"/>
+    <line x1="305" y1="150" x2="320" y2="150"/>
+    <line x1="305" y1="170" x2="320" y2="170"/>
+  </g>
+  <!-- LED indicators -->
+  <circle cx="140" cy="140" r="6" fill="#00d9a5" opacity="0.8"/>
+  <circle cx="180" cy="140" r="6" fill="#ff6b6b" opacity="0.8"/>
+  <circle cx="220" cy="140" r="6" fill="#ffd93d" opacity="0.8"/>
+  <circle cx="260" cy="140" r="6" fill="#3b82f6" opacity="0.8"/>
+  <!-- Robot arm silhouette -->
+  <path d="M200 200 L180 240 L160 260" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M200 200 L220 240 L240 260" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Gear icons -->
+  <circle cx="120" cy="240" r="20" stroke="#3b82f6" stroke-width="2" fill="none" opacity="0.5"/>
+  <circle cx="120" cy="240" r="10" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="280" cy="240" r="20" stroke="#3b82f6" stroke-width="2" fill="none" opacity="0.5"/>
+  <circle cx="280" cy="240" r="10" fill="#3b82f6" opacity="0.3"/>
+</svg>
